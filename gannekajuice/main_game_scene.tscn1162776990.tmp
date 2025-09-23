@@ -16,6 +16,8 @@ background_color = Color(0.5757172, 0.70033956, 0.69384974, 1)
 
 [node name="Player" type="CharacterBody3D" parent="."]
 script = ExtResource("1_g666j")
+move_speed = null
+side_speed = null
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
 shape = SubResource("CapsuleShape3D_g666j")
